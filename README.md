@@ -1,2 +1,4 @@
 # RespiraSim
-Interactive respiratory mechanics simulator for pulmonary biomechanics, breathing dynamics, and pressure-volume-flow analysis.
+Interactive respiratory mechanics educational simulator. Open index.html or deploy the root to GitHub Pages. No external dependencies.
+
+Source: Simu_lab_report_merged.pdf, Experiment 07, PDF pp. 154, 159, 163, 165. Problem 1 transfer function (s+420)/(s²+620s+4000) maps pressure to flow; flow integration gives volume. Default amplitude 2.5 and rate 15 breaths/min. RK4 step 0.001 s; zero initial states; 15 s duration. Optional independent single-compartment RC extension permits resistance and compliance exploration; it does not reproduce Problem 2. All values are model units, not clinical measurements. Original scanned figures are reference evidence; confirm redistribution permission before publishing. No clinical validation or quantitative comparison to original curves has been performed.
